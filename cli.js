@@ -16,7 +16,12 @@ function init(argv) {
     )
   );
 
-  program.version(packageJson.version).description(packageJson.description);
+  program
+    .version(packageJson.version)
+    .description(packageJson.description)
+    .action(function execute(result) {
+      console.log({ result });
+    });
 
   program.parse(argv);
 }
