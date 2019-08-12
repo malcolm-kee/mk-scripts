@@ -1,11 +1,11 @@
 {
   "name": "mk-scripts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Useless cli scripts created for learning purpose",
   "main": "cli.js",
   "license": "MIT",
   "bin": {
-    "mk": "./cli.js"
+    "mk": "cli.js"
   },
   "repository": "https://github.com/malcolm-kee/mk-scripts",
   "homepage": "https://github.com/malcolm-kee/mk-scripts#readme",
