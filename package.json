@@ -1,0 +1,13 @@
+{
+  "name": "mk-scripts",
+  "version": "0.0.1",
+  "description": "A useless cli scripts created for learning purpose",
+  "main": "./cli.js",
+  "license": "MIT",
+  "bin": {
+    "gogogo": "./cli.js"
+  },
+  "scripts": {
+    "start": "gogogo"
+  }
+}
